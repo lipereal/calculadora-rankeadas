@@ -1,11 +1,11 @@
 function calcularNivel(vitorias) {
-    let nivel = ""; // Defina a variável nivel dentro da função
+    let nivel = "";
 
     if (vitorias <= 10) {
         nivel = "Ferro";
     } else if (vitorias > 10 && vitorias <= 20) {
         nivel = "Bronze";
-    } else if (vitorias > 20 && vitorias <= 50) {  // Corrigido para 20 em vez de 21 para cobrir o intervalo corretamente
+    } else if (vitorias > 20 && vitorias <= 50) { 
         nivel = "Prata";
     } else if (vitorias > 50 && vitorias <= 80) {
         nivel = "Ouro";
